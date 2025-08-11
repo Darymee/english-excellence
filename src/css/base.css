@@ -27,6 +27,10 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+.section-header {
 }
