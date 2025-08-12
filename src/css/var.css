@@ -31,6 +31,7 @@
   --bg-main: var(--white);
   --bg-overlay: var(--black-40);
   --bg-accent: var(--green-50);
+  --bg-accent-hover: var(--green-100);
   --bg-proposal-gd: linear-gradient(
     80deg,
     var(--green-50) 0%,
@@ -43,14 +44,9 @@
   --container-lg: 1280px; /* max-width for desktop */
 
   /* Container padding*/
-  --container-pd-sm: 0 20px; /* padding for mobile */
-  --container-pd-md: 0 32px; /* padding for tablet */
-  --container-pd-lg: 0 128px; /* padding for desktop */
-
-  /* Section margin - margin-bottom between sections*/
-  --margin-bottom-sm: 80px /* for mobile */
-  --margin-bottom-md: 100px; /* tablet */
-  --margin-bottom-lg: 150px; /*desktop */
+  --container-pd-sm: 80px 0; /* padding for mobile */
+  --container-pd-md: 100px 0; /* padding for tablet */
+  --container-pd-lg: 150px 0; /* padding for desktop */
 
   /* ⚡ Animation */
   --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
