@@ -1,0 +1,57 @@
+:root {
+  /* 🎨 Base Colors */
+  --black: #121417;
+  --black-40: #12141766; /* 0.4 opacity */
+  --black-50: #12141780; /* 0.5 opacity */
+  --green-25: #d4fde1;
+  --green-30: #bee8cc;
+  --green-50: #4dc274;
+  --green-100: #38ae5f;
+  --gray: #ffffff99; /* 0.6 opacity */
+  --white: #fff;
+
+  /* 🖋 Typography */
+  --font-family: 'Manrope', sans-serif;
+
+  /* 🖋 Text color */
+  --text-primary: var(--black-50);
+  --text-secondary: var(--black);
+  --text-invert: var(--white);
+  --text-muted: var(--gray);
+  --text-heading: var(--black);
+  --text-accent: var(--green-50);
+
+  /* Hover and Focus*/
+
+  --hover-btn: var(--green-100);
+  --hover-icon: var(--green-50);
+
+  /* 🧱 Backgrounds */
+
+  --bg-main: var(--white);
+  --bg-overlay: var(--black-40);
+  --bg-accent: var(--green-50);
+  --bg-proposal-gd: linear-gradient(
+    80deg,
+    var(--green-50) 0%,
+    var(--green-30) 100%
+  );
+
+  /* Container Width*/
+  --container-sm: 375x; /* max-width for mobile */
+  --container-md: 768px; /* max-width for tablet */
+  --container-lg: 1280px; /* max-width for desktop */
+
+  /* Container padding*/
+  --container-pd-sm: 0 20px; /* padding for mobile */
+  --container-pd-md: 0 32px; /* padding for tablet */
+  --container-pd-lg: 0 128px; /* padding for desktop */
+
+  /* Section margin - margin-bottom between sections*/
+  --margin-bottom-sm: 80px /* for mobile */
+  --margin-bottom-md: 100px; /* tablet */
+  --margin-bottom-lg: 150px; /*desktop */
+
+  /* ⚡ Animation */
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
