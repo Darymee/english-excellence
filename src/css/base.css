@@ -28,6 +28,10 @@ main {
   flex-grow: 1;
 }
 
+body:has(.is-open) {
+  overflow-y: hidden;
+}
+
 main:has(.back-link) {
   text-align: center;
 }
@@ -72,6 +76,7 @@ main:has(.back-link) {
 button {
   border: none;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .button {
@@ -98,6 +103,12 @@ button {
 .button.button-white:active {
   color: var(--green-100);
   background-color: var(--bg-main);
+}
+
+.nav-link {
+  font-size: 14px;
+  line-height: 1.28571;
+  color: var(--white);
 }
 
 /* Styles for Tablet devices */
