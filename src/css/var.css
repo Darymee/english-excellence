@@ -39,7 +39,7 @@
   );
 
   /* Container Width*/
-  --container-sm: 375x; /* max-width for mobile */
+  --container-sm: 375px; /* max-width for mobile */
   --container-md: 768px; /* max-width for tablet */
   --container-lg: 1280px; /* max-width for desktop */
 
