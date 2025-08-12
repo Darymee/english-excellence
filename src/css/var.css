@@ -3,11 +3,13 @@
   --black: #121417;
   --black-40: #12141766; /* 0.4 opacity */
   --black-50: #12141780; /* 0.5 opacity */
+  --green-10: #4dc2741a;
   --green-25: #d4fde1;
   --green-30: #bee8cc;
   --green-50: #4dc274;
   --green-100: #38ae5f;
   --gray: #ffffff99; /* 0.6 opacity */
+  --light-gray: #ffffff1a; /* 0.1 opacity */
   --white: #fff;
 
   /* 🖋 Typography */
@@ -37,6 +39,13 @@
     var(--green-50) 0%,
     var(--green-30) 100%
   );
+  --bg-footer: var(--black);
+
+  /* Elements */
+  --icons-footer: var(--white);
+  --icons-border: var(--light-gray);
+  --border-footer: var(--light-gray);
+  --icons-border-color: var(--green-10);
 
   /* Container Width*/
   --container-sm: 375px; /* max-width for mobile */
