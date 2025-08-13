@@ -1,6 +1,7 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
+@import url('./components.css');
 @import url('./container.css');
 @import url('./visually-hidden.css');
 @import url('./link-button.css');
