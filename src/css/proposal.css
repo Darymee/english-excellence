@@ -2,11 +2,13 @@
   padding: 40px 20px 64px 20px;
   border-radius: 16px;
   background: var(--bg-proposal-gd);
+  max-width: 767px;
   overflow: hidden;
 }
 
 @media only screen and (min-width: 768px) {
   .proposal-container {
+    overflow: visible;
     padding: 64px 32px 92px 32px;
   }
 }
