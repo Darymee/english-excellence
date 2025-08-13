@@ -1,6 +1,68 @@
 .footer {
   background-color: var(--bg-footer);
   color: var(--text-invert);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  opacity: 0.22;
+  filter: blur(60px);
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    var(--green-50),
+    var(--green-100),
+    var(--white),
+    var(--black-40),
+    var(--green-30),
+    var(--green-25),
+    var(--green-50)
+  );
+  animation: footer-orbit 32s linear infinite;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.55),
+    transparent
+  );
+  animation: footer-slide 6s linear infinite;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes footer-orbit {
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes footer-slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(50%);
+  }
 }
 
 .footer-top {
