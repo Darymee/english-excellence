@@ -1,6 +1,7 @@
 /* Styles for Mobile devices */
 .container {
   max-width: var(--container-sm);
+  padding: var(--container-pd-sm);
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -9,6 +10,7 @@
   .container {
     padding: 0 32px;
     max-width: var(--container-md);
+    padding: var(--container-pd-md);
   }
 }
 /* Styles for Desktop devices */
@@ -16,5 +18,6 @@
   .container {
     padding: 0 64px;
     max-width: var(--container-lg);
+    padding: var(--container-pd-lg);
   }
 }

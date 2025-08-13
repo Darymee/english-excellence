@@ -50,14 +50,19 @@
   --icons-border-color: var(--green-10);
 
   /* Container Width*/
-  --container-sm: 375px; /* max-width for mobile */
-  --container-md: 768px; /* max-width for tablet */
-  --container-lg: 1280px; /* max-width for desktop */
+  --container-sm: 375px; 
+  --container-md: 768px; 
+  --container-lg: 1280px; 
 
-  /* Container padding*/
-  --container-pd-sm: 80px 0; /* padding for mobile */
-  --container-pd-md: 100px 0; /* padding for tablet */
-  --container-pd-lg: 150px 0; /* padding for desktop */
+  /* Container Padding*/
+  --container-pd-sm: 0 20px;
+  --container-pd-md: 0 32px;
+  --container-pd-lg: 0 64px; 
+
+  /* Section padding*/
+  --section-pd-sm: 40px 0; 
+  --section-pd-md: 50px 0; 
+  --section-pd-lg: 75px 0; 
 
   /* ⚡ Animation */
   --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);

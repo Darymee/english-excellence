@@ -1,11 +1,13 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
+@import url('./components.css');
 @import url('./container.css');
 @import url('./visually-hidden.css');
 @import url('./link-button.css');
 
 @import url('./var.css');
+@import url('./cursors.css');
 
 /* Sections style */
 @import url('./header.css');
