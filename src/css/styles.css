@@ -3,6 +3,8 @@
 @import url('./base.css');
 @import url('./container.css');
 @import url('./visually-hidden.css');
+@import url('./link-button.css');
+
 @import url('./var.css');
 
 /* Sections style */
