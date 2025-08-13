@@ -47,6 +47,19 @@
   gap: 20px;
 }
 
+.modal-overlay .nav-link::after {
+  background-color: var(--black);
+}
+
+.modal-overlay li:hover .social-link {
+  border-color: var(--black);
+  opacity: 0.8;
+}
+
+.modal-overlay li:hover .social-icon {
+  fill: var(--black);
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .modal {
