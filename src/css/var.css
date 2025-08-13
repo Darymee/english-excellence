@@ -1,6 +1,7 @@
 :root {
   /* 🎨 Base Colors */
   --black: #121417;
+  --black-10: #1214171a; /* 0.1 opacity */
   --black-40: #12141766; /* 0.4 opacity */
   --black-50: #12141780; /* 0.5 opacity */
   --green-10: #4dc2741a;

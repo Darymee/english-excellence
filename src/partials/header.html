@@ -1,8 +1,17 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo"> </a>
+  <div class="container header-container">
+    <nav class="nav-header">
+      <a class="logo" href="/" aria-label="Site logo">
+        english<span class="logo-accent">excellence</span>.
+      </a>
+      <load src="/partials/nav-list.html" list-class="header-nav-list" />
     </nav>
+    <load src="/partials/socials.html" />
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-icon" width="32" height="32">
+        <use href="img/sprite.svg#burger"></use>
+      </svg>
+    </button>
   </div>
 
   <!-- Modal menu -->

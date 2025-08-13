@@ -3,10 +3,10 @@
     <symbol id="arrow-down" viewBox="0 0 32 32">
       <path d="M16.947 17.867a1.334 1.334 0 0 1-1.894 0l-6.107-6.12a1.334 1.334 0 1 0-1.894 1.88l6.12 6.12a4.001 4.001 0 0 0 5.654 0l6.12-6.12a1.337 1.337 0 0 0-.434-2.172 1.331 1.331 0 0 0-1.46.292l-6.107 6.12z"/>
     </symbol>
-    <symbol id="burger" viewBox="0 0 46 32">
-      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 5.074h35.329"></path>
-      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 24.468h35.329"></path>
-      <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
+    <symbol id="burger" viewBox="0 0 31 32">
+      <path stroke="currentColor" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M6.177 8.61h23.399"/>
+      <path stroke="currentColor" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M6.177 22.127h23.399"/>
+      <path stroke="currentColor" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M13.597 15.368h15.979"/>
     </symbol>
     <symbol id="close" viewBox="0 0 32 32">
       <path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
