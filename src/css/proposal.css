@@ -2,7 +2,6 @@
   padding: 40px 20px 64px 20px;
   border-radius: 16px;
   background: var(--bg-proposal-gd);
-  max-width: 767px;
   overflow: hidden;
 }
 
@@ -14,7 +13,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .proposal-container {
-    padding: 64px 64px 141px 64px;
+    padding: 64px 64px 141.87px 64px;
   }
 }
 
@@ -57,14 +56,13 @@
 
 @media only screen and (min-width: 768px) {
   .proposal-thumb {
-    padding: 64.92px 31.93px 63.08px 31.93px;
+    padding: 63.92px 38px 64.08px 31.93px;
     display: flex;
-    align-items: center;
   }
 }
 @media only screen and (min-width: 1280px) {
   .proposal-thumb {
-    padding: 64.87px 64px 63.13px 64px;
+    padding: 64.87px 64px 63px 64px;
   }
 }
 
@@ -83,7 +81,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff80;
+  background-color: var(--gray-50);
   border-radius: 16px;
   transform: rotate(9deg);
 }
@@ -123,8 +121,8 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.4px;
-  margin-bottom: 20px;
   color: var(--text-secondary);
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -138,7 +136,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .proposal-subtitle {
-    margin-bottom: 42px;
+    margin-bottom: 40px;
   }
 }
 .proposal-list {
@@ -166,9 +164,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .proposal-item:not(:last-child) {
-    margin-bottom: 18px;
-  }
 }
 .proposal-text {
   font-weight: 700;
@@ -229,10 +224,10 @@
 @media only screen and (min-width: 768px) {
   .proposal-img-wrap {
     display: block;
-    width: 160px;
+    width: 122px;
     align-self: end;
     position: relative;
-    left: 20px;
+    left: 10px;
   }
 }
 @media only screen and (min-width: 1280px) {
