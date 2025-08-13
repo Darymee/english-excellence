@@ -8,7 +8,14 @@
   line-height: 24px;
   color: var(--text-invert);
   border-radius: 12px;
-  background: #4dc274;
+  background-color: var(--green-50);
+  transition: var(--transition-base);
+  transition-property: background-color;
+}
+
+.link-button:hover,
+.link-button:focus {
+  background-color: var(--bg-accent-hover);
 }
 
 @media only screen and (min-width: 768px) {
@@ -16,10 +23,5 @@
     font-size: 18px;
     line-height: 28px;
     height: 60px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .link-button {
   }
 }
