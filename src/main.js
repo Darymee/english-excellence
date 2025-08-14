@@ -1,3 +1,5 @@
+import { animateOnScroll } from './js/scrollAnimation';
+
 (() => {
   const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
@@ -16,3 +18,5 @@
     refs.modal.classList.toggle('is-open');
   }
 })();
+
+animateOnScroll('section.hidden');

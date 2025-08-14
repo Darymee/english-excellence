@@ -34,6 +34,11 @@ body:has(.is-open) {
   overflow-y: hidden;
 }
 
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
 .section {
   padding: var(--section-pd-sm);
 }
