@@ -12,9 +12,7 @@
 
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
-  refs.navLinks.forEach(link => {
-    link.addEventListener('click', toggleModal);
-  });
+  refs.navLinks.forEach(link => link.addEventListener('click', toggleModal));
 
   function toggleModal() {
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
