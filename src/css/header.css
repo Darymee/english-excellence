@@ -41,6 +41,10 @@
   margin: 0 auto;
 }
 
+.header-nav-list .nav-item {
+  margin-bottom: 0;
+}
+
 .header-nav-list .nav-link {
   color: var(--black);
 }

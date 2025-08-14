@@ -26,6 +26,7 @@
 
   span {
     color: var(--green-30);
+    text-shadow: var(--shadow);
   }
 }
 
