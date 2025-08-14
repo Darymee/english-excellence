@@ -100,6 +100,7 @@
 }
 .title-accent {
   color: var(--green-30);
+  text-shadow: var(--shadow);
 }
 .arrow-down {
   width: 38px;
