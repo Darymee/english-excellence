@@ -17,4 +17,8 @@
     max-width: var(--container-lg);
     padding: var(--container-pd-lg);
   }
+
+  .container.container-big {
+    padding: var(--container-pd-big-lg);
+  }
 }

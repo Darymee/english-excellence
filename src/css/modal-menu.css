@@ -48,6 +48,10 @@
   text-align: center;
 }
 
+.modal-overlay .nav-item {
+  margin-bottom: 0;
+}
+
 .modal-overlay .nav-link::after {
   background-color: var(--black);
 }

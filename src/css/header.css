@@ -41,6 +41,10 @@
   margin: 0 auto;
 }
 
+.header-nav-list .nav-item {
+  margin-bottom: 0;
+}
+
 .header-nav-list .nav-link {
   color: var(--black);
 }
@@ -73,14 +77,6 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .nav-header {
-    margin-left: 64px;
-  }
-
-  .social-list {
-    margin-right: 64px;
-  }
-
   .burger-btn {
     display: none;
   }

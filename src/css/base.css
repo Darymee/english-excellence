@@ -69,6 +69,8 @@ body:has(.is-open) {
   left: 0;
   background: var(--green-30);
   z-index: -1;
+
+  box-shadow: var(--shadow);
 }
 
 .section-text-support {
