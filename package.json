@@ -17,7 +17,6 @@
   "author": "Daryna Lysenko",
   "license": "ISC",
   "dependencies": {
-    "motion": "^12.23.12",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
