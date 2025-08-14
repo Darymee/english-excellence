@@ -41,8 +41,11 @@
   margin: 0 auto;
 }
 
+.header-nav-list .nav-item {
+  margin-bottom: 0;
+}
+
 .header-nav-list .nav-link {
-  padding: 33px 0;
   color: var(--black);
 }
 
@@ -58,6 +61,18 @@
 .header-container .social-icon {
   fill: var(--black);
   opacity: 0.8;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .burger-btn {
+    padding: 14px 0;
+  }
+
+  .burger-icon {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* Styles for Desktop devices */
@@ -77,6 +92,10 @@
   .header-nav-list,
   .header-container .social-list {
     display: flex;
+  }
+
+  .header-container .social-link {
+    padding: 7px;
   }
 }
 

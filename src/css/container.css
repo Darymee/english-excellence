@@ -1,18 +1,23 @@
 /* Styles for Mobile devices */
 .container {
   max-width: var(--container-sm);
+  padding: var(--container-pd-sm);
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
+    padding: 0 32px;
     max-width: var(--container-md);
+    padding: var(--container-pd-md);
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
+    padding: 0 64px;
     max-width: var(--container-lg);
+    padding: var(--container-pd-lg);
   }
 }
