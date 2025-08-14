@@ -41,17 +41,6 @@
   fill: var(--white);
   transform: rotate(180deg);
   transform-origin: center;
-  animation: bounce-scale 1.5s infinite ease-in-out;
-}
-
-@keyframes bounce-scale {
-  0%,
-  100% {
-    transform: rotate(180deg) translateY(0) scale(1);
-  }
-  50% {
-    transform: rotate(180deg) translateY(-5px) scale(1.1);
-  }
 }
 
 .anchor-button:hover,
@@ -64,12 +53,4 @@
   animation-play-state: paused;
 
   transform: scale(1.05);
-}
-
-.anchor-button:hover .arrow-top-icon,
-.anchor-button:focus .arrow-top-icon {
-  -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  -o-animation-play-state: paused;
-  animation-play-state: paused;
 }
