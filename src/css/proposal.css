@@ -20,7 +20,7 @@
 .proposal-title {
   font-size: 38px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.05;
   color: var(--text-invert);
   margin-bottom: 65px;
 
@@ -37,7 +37,7 @@
 @media only screen and (min-width: 768px) {
   .proposal-title {
     font-size: 60px;
-    line-height: 70px;
+    line-height: 1.67;
     margin-bottom: 83px;
   }
 }
@@ -120,7 +120,7 @@
 
 .proposal-subtitle {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: -0.4px;
   color: var(--text-secondary);
   margin-bottom: 20px;
@@ -130,7 +130,7 @@
   .proposal-subtitle {
     font-size: 40px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 1.2;
     letter-spacing: -0.8px;
     margin-bottom: 32px;
   }
@@ -176,7 +176,7 @@
 @media only screen and (min-width: 768px) {
   .proposal-text {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: -0.4px;
   }
 }
