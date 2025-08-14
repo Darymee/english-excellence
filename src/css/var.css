@@ -67,6 +67,11 @@
   --section-pd-md: 50px 0;
   --section-pd-lg: 75px 0;
 
+  /* Last section padding*/
+  --section-pdb-sm: 80px;
+  --section-pdb-md: 100px;
+  --section-pdb-lg: 150px;
+
   /* ⚡ Animation */
   --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

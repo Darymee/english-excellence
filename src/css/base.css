@@ -38,6 +38,10 @@ body:has(.is-open) {
   padding: var(--section-pd-sm);
 }
 
+.section:last-child {
+  padding-bottom: var(--section-pdb-sm);
+}
+
 .section-title {
   font-weight: 700;
   font-size: 32px;
@@ -84,6 +88,10 @@ body:has(.is-open) {
     padding: var(--section-pd-md);
   }
 
+  .section:last-child {
+    padding-bottom: var(--section-pdb-md);
+  }
+
   .section-title {
     font-size: 40px;
     line-height: 1.2;
@@ -102,6 +110,10 @@ body:has(.is-open) {
 @media only screen and (min-width: 1280px) {
   .section {
     padding: var(--section-pd-lg);
+  }
+
+  .section:last-child {
+    padding-bottom: var(--section-pdb-lg);
   }
 
   .section-text-support {
