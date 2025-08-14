@@ -107,7 +107,7 @@
   content: '|';
   position: absolute;
   right: -0.2em;
-  color: var(--white);
+  color: var(--green-30);
 
   animation: blink 0.7s steps(1) infinite;
 
@@ -149,7 +149,7 @@
 @media screen and (min-width: 768px) {
   .hero-title {
     font-size: 60px;
-    line-height: 1.16667;
+    line-height: 1.67;
     margin-bottom: 32px;
     width: 488px;
   }
