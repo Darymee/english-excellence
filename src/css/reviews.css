@@ -125,3 +125,20 @@
     width: 256px;
   }
 }
+
+.wrapper-slider {
+  position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--green-50);
+}
+
+.swiper-button-next {
+  right: -35px;
+}
+
+.swiper-button-prev {
+  left: -35px;
+}
