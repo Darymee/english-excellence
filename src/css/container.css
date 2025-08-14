@@ -16,8 +16,11 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
-    padding: 0 64px;
     max-width: var(--container-lg);
     padding: var(--container-pd-lg);
+  }
+
+  .container.container-big {
+    padding: var(--container-pd-big-lg);
   }
 }
