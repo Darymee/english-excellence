@@ -15,7 +15,6 @@
   background-position: center;
   border-radius: 16px;
   padding: 425px 20px 82px;
-  max-width: 335px;
 }
 @media (min-resolution: 192dpi) {
   .hero .container {
@@ -40,7 +39,7 @@
         rgba(0, 0, 0, 0) 51.43%
       ),
       url(../img/hero/hero-md@1x.jpg);
-    max-width: 704px;
+
     padding: 260px 32px 296px;
     border-radius: 30px;
   }
@@ -69,13 +68,17 @@
         rgba(0, 0, 0, 0) 51.43%
       ),
       url(../img/hero/hero-lg@1x.jpg);
-    max-width: 1152px;
     padding: 164px 64px 163px;
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .hero .container {
-    background-image: url(../img/hero/hero-lg@2x.jpg);
+    background-image: linear-gradient(
+        96deg,
+        rgba(0, 0, 0, 0.4) 36.36%,
+        rgba(0, 0, 0, 0) 51.43%
+      ),
+      url(../img/hero/hero-lg@2x.jpg);
   }
 }
 .hero-title {
