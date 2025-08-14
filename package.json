@@ -1,11 +1,11 @@
 {
-  "name": "team-4-final-project",
+  "name": "english-excellence",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "vite build --base=/team-4-final-project/",
+    "build": "vite build --base=/english-excellence/",
     "preview": "vite preview"
   },
   "devDependencies": {
