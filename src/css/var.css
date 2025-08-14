@@ -57,7 +57,8 @@
   /* Container Padding*/
   --container-pd-sm: 0 20px;
   --container-pd-md: 0 32px;
-  --container-pd-lg: 0 64px;
+  --container-pd-lg: 0 128px; 
+  --container-pd-big-lg: 0 64px; 
 
   /* Section padding*/
   --section-pd-sm: 40px 0;
