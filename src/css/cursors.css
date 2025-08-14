@@ -1,5 +1,5 @@
 html {
-  cursor: url('/public/cursor-black.svg'), auto;
+  cursor: url('/cursor-black.svg'), auto;
 }
 
 a,
@@ -8,12 +8,12 @@ a span,
 a span:hover,
 button,
 button:hover {
-  cursor: url('/public/cursor-hover-black.svg'), auto;
+  cursor: url('/cursor-hover-black.svg'), auto;
 }
 
 footer,
 footer * {
-  cursor: url('/public/cursor-white.svg') 0 0, auto;
+  cursor: url('/cursor-white.svg') 0 0, auto;
 }
 
 footer a,
@@ -22,5 +22,5 @@ footer a span,
 footer a span:hover,
 footer svg,
 footer svg:hover {
-  cursor: url('/public/cursor-hover-white.svg') 0 0, auto;
+  cursor: url('/cursor-hover-white.svg') 0 0, auto;
 }
