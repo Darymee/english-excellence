@@ -29,13 +29,15 @@
   resize: none;
 }
 
-.form-input:focus {
+.form-input:focus,
+.form-comment:focus {
   border-color: var(--green-50);
 }
 
 .form-label,
 .comment-label {
   color: var(--text-secondary);
+  transition: transform var(--transition-base);
 }
 
 .form-field:focus + .form-label,
@@ -126,6 +128,9 @@
   width: 20px;
   height: 20px;
   appearance: none;
+
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base);
 }
 
 .confirm-terms {
@@ -170,6 +175,11 @@
 
 .radio-input:focus {
   border-color: var(--green-50);
+}
+
+.teacher-label::before {
+  transition: background-color var(--transition-base),
+    border-color var(--transition-base);
 }
 
 .radio-input:checked + .teacher-label::before,
