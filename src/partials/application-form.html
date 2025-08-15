@@ -1,4 +1,4 @@
-<section id="application-form" class="section">
+<section class="section form-section">
   <div class="container">
     <h2 class="section-title">
       Leave an <span class="text-decor">application</span>
@@ -7,5 +7,129 @@
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
     </p>
+
+    <div class="content-container">
+      <div class="background-img">
+        <img
+          src="/img/apply/leave-app@1x.png"
+          alt="student"
+          srcset="
+            /img/apply/leave-app@1x.png 1x,
+            /img/apply/leave-app@2x.png 2x
+          "
+        />
+
+        <div class="description-img">
+          <p class="title-support">1000</p>
+          <p>
+            of our online English language lessons! This journey has been full
+            of discovery, growth and unforgettable moments, and we are happy to
+            share this joyful event with you.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <form class="form-input-container">
+          <div class="wrapper-input">
+            <input
+              type="text"
+              name="user-name"
+              class="form-field form-input"
+              id="user-name"
+              placeholder=" "
+            />
+            <label for="user-name" class="form-label">Name</label>
+          </div>
+
+          <div class="wrapper-input">
+            <input
+              type="email"
+              placeholder=" "
+              id="user-email"
+              class="form-field form-input"
+              name="user-email"
+            />
+            <label for="user-email" class="form-label">Email </label>
+          </div>
+          <div class="wrapper-input">
+            <input
+              type="tel"
+              class="form-field form-input"
+              name="user-tel"
+              id="user-phone"
+              pattern="\+?[0-9\s\-\(\)]+"
+              placeholder=" "
+            />
+            <label for="user-phone" class="form-label">Phone</label>
+          </div>
+          <div class="wrapper-input wrapper-textarea">
+            <textarea
+              class="form-field form-comment"
+              placeholder=" "
+              id="comment"
+            ></textarea>
+            <label for="comment" class="comment-label">Comment</label>
+          </div>
+          <div class="form-radio-container">
+            <p class="radio-title">Choose a teacher</p>
+            <div class="radio-container">
+              <div class="wrapper-radio">
+                <input
+                  class="radio-input"
+                  id="maria"
+                  type="radio"
+                  name="teacher"
+                  value="Maria"
+                  required
+                />
+                <label class="teacher-label" for="maria"> Maria</label>
+              </div>
+
+              <div class="wrapper-radio">
+                <input
+                  class="radio-input"
+                  type="radio"
+                  name="teacher"
+                  id="artem"
+                  value="Artem"
+                  required
+                />
+                <label class="teacher-label" for="artem">Artem</label>
+              </div>
+
+              <div class="wrapper-radio">
+                <input
+                  class="radio-input"
+                  id="ilona"
+                  type="radio"
+                  name="teacher"
+                  value="Ilona"
+                  required
+                />
+                <label class="teacher-label" for="ilona">Ilona </label>
+              </div>
+              <div class="wrapper-radio">
+                <input
+                  id="volodymyr"
+                  class="radio-input"
+                  type="radio"
+                  name="teacher"
+                  value="Volodymyr"
+                  required
+                />
+                <label for="volodymyr" class="teacher-label"> Volodymyr </label>
+              </div>
+            </div>
+            <button type="submit" class="button">Send</button>
+
+            <p class="confirm-terms">
+              By clicking on “Send” button, you agree to our Privacy Policy, and
+              allow Promodo to use this information for marketing purposes.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
