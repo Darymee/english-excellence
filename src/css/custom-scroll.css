@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green-30);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green-50);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--green-30) var(--white);
+}

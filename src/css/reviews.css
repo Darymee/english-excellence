@@ -12,9 +12,14 @@
   row-gap: 20px;
   align-items: center;
   border-radius: 16px;
-  width: 335px;
   height: 278px;
   background: #f3f5f6;
+}
+
+@media only screen and (max-width: 375px) {
+  .rev-card {
+    width: 335px;
+  }
 }
 
 .rev-card-student {
@@ -141,6 +146,13 @@
 
 .swiper-button-prev {
   left: -35px;
+}
+
+@media (max-width: 420px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
