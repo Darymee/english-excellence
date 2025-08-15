@@ -166,9 +166,8 @@ button {
 @media only screen and (min-width: 768px) {
   .button {
     font-size: 18px;
-    line-height: 1.55;
+    line-height: 1.56;
 
-    width: auto;
     padding: 16px 64px;
   }
 
