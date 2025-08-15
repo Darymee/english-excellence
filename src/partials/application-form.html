@@ -1,4 +1,4 @@
-<section id="application-form" class="section">
+<section class="section form-section">
   <div class="container">
     <h2 class="section-title">
       Leave an <span class="text-decor">application</span>
@@ -58,11 +58,12 @@
               class="form-field form-input"
               name="user-tel"
               id="user-phone"
+              pattern="\+?[0-9\s\-\(\)]+"
               placeholder=" "
             />
             <label for="user-phone" class="form-label">Phone</label>
           </div>
-          <div class="wrapper-input">
+          <div class="wrapper-input wrapper-textarea">
             <textarea
               class="form-field form-comment"
               placeholder=" "
@@ -70,11 +71,8 @@
             ></textarea>
             <label for="comment" class="comment-label">Comment</label>
           </div>
-        </form>
-
-        <div class="form-radio-container">
-          <p class="radio-title">Choose a teacher</p>
-          <form>
+          <div class="form-radio-container">
+            <p class="radio-title">Choose a teacher</p>
             <div class="radio-container">
               <div class="wrapper-radio">
                 <input
@@ -123,14 +121,14 @@
                 <label for="volodymyr" class="teacher-label"> Volodymyr </label>
               </div>
             </div>
-            <a href="" class="button hero-btn">Send</a>
+            <button type="submit" class="button">Send</button>
 
             <p class="confirm-terms">
               By clicking on “Send” button, you agree to our Privacy Policy, and
               allow Promodo to use this information for marketing purposes.
             </p>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
