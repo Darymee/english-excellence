@@ -513,7 +513,10 @@
               name="user-name"
               class="form-field form-input"
               id="user-name"
+              required
               placeholder=" "
+              pattern="^[A-Za-z-Яа-яЁёІіЇїЄє]{2,30}$"
+              title="The name must include only letters, from 2 till 30 symbols"
             />
             <label for="user-name" class="form-label">Name</label>
           </div>
@@ -525,6 +528,9 @@
               id="user-email"
               class="form-field form-input"
               name="user-email"
+              required
+              pattern="^.+@.+$"
+              title="Enter a valid email"
             />
             <label for="user-email" class="form-label">Email </label>
           </div>
@@ -536,6 +542,7 @@
               id="user-phone"
               pattern="\+?[0-9\s\-\(\)]+"
               placeholder=" "
+              required
             />
             <label for="user-phone" class="form-label">Phone</label>
           </div>
@@ -544,6 +551,9 @@
               class="form-field form-comment"
               placeholder=" "
               id="comment"
+              required
+              pattern=".{2,300}"
+              title="Comment must be between 2 and 300 characters"
             ></textarea>
             <label for="comment" class="comment-label">Comment</label>
           </div>
