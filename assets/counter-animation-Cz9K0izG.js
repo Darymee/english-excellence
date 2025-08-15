@@ -1,0 +1,2 @@
+function c(t,e,s,l){let u=document.querySelector(t),n=null;function r(o){n||(n=o);let i=Math.min((o-n)/l,1);u.textContent=Math.floor(i*(s-e)+e),i<1&&requestAnimationFrame(r)}requestAnimationFrame(r)}let a=!1,m=new IntersectionObserver(t=>{t.forEach(e=>{e.isIntersecting&&!a&&(c(".counter",1,1e3,2e3),a=!0)})},{threshold:.5});m.observe(document.querySelector("#application-form"));
+//# sourceMappingURL=counter-animation-Cz9K0izG.js.map
