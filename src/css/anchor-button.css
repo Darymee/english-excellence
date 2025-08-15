@@ -1,0 +1,57 @@
+.anchor-button {
+  position: fixed;
+  z-index: 6;
+  bottom: 50px;
+  right: 50px;
+
+  background: conic-gradient(var(--green-100) 0% 0%, transparent 0% 100%)
+      padding-box,
+    var(--green-50);
+  box-shadow: 0 0 0 0 var(--green-25);
+
+  transform: scale(1);
+
+  transition: transform var(--transition-base);
+  animation: pulse 2s infinite ease-in-out;
+
+  opacity: 0;
+}
+
+.anchor-button.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 var(--green-25);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px var(--green-25);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 var(--green-25);
+  }
+}
+
+.arrow-top-icon {
+  fill: var(--white);
+  transform: rotate(180deg);
+  transform-origin: center;
+}
+
+.anchor-button:hover,
+.anchor-button:focus {
+  background-color: var(--green-100);
+
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+
+  transform: scale(1.05);
+}

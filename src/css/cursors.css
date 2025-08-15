@@ -1,0 +1,26 @@
+html {
+  cursor: url('/cursor-black.svg'), auto;
+}
+
+a,
+a:hover,
+a span,
+a span:hover,
+button,
+button:hover {
+  cursor: url('/cursor-hover-black.svg'), auto;
+}
+
+footer,
+footer * {
+  cursor: url('/cursor-white.svg') 0 0, auto;
+}
+
+footer a,
+footer a:hover,
+footer a span,
+footer a span:hover,
+footer svg,
+footer svg:hover {
+  cursor: url('/cursor-hover-white.svg') 0 0, auto;
+}

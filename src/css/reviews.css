@@ -1,0 +1,144 @@
+.rev-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.rev-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  border-radius: 16px;
+  width: 335px;
+  height: 278px;
+  background: #f3f5f6;
+}
+
+.rev-card-student {
+  display: flex;
+  column-gap: 8px;
+  border-radius: 8px;
+  width: 295px;
+  height: 78px;
+  margin-top: 20px;
+  padding: 14px 0 14px 14px;
+  background: var(--green-50);
+}
+
+.student-image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.student-name-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  justify-content: center;
+}
+
+.student-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.student-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rev-card-feedback {
+  width: 267px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Styles for Tablet devices */
+
+@media only screen and (max-width: 767px) {
+  .rev-list .rev-card:nth-child(n + 2) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .rew-text-support {
+    display: flex;
+    max-width: 647px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+  }
+
+  .rev-list {
+    flex-direction: row;
+  }
+
+  .rev-card {
+    row-gap: 32px;
+    border-radius: 30px;
+    width: 336px;
+    height: 326px;
+  }
+
+  .rev-card-student {
+    border-radius: 15px;
+    width: 304px;
+    margin-top: 32px;
+    padding: 14px 0 14px 16px;
+  }
+
+  .rev-card-feedback {
+    width: 272px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* Styles for Desktop devices */
+
+@media only screen and (max-width: 1279px) {
+  .rev-list .rev-card:nth-child(n + 3) {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .rev-card {
+    width: 320px;
+  }
+
+  .rev-card-student {
+    width: 288px;
+  }
+
+  .rev-card-feedback {
+    width: 256px;
+  }
+}
+
+.wrapper-slider {
+  position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--green-50);
+}
+
+.swiper-button-next {
+  right: -35px;
+}
+
+.swiper-button-prev {
+  left: -35px;
+}

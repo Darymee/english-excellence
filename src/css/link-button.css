@@ -1,0 +1,27 @@
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 52px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text-invert);
+  border-radius: 12px;
+  background-color: var(--green-50);
+  transition: var(--transition-base);
+  transition-property: background-color;
+}
+
+.link-button:hover,
+.link-button:focus {
+  background-color: var(--bg-accent-hover);
+}
+
+@media only screen and (min-width: 768px) {
+  .link-button {
+    font-size: 18px;
+    line-height: 1.56;
+    height: 60px;
+  }
+}
