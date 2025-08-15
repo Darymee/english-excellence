@@ -1,10 +1,10 @@
 // вантажимо одразу
-import './burger.js';
-import './acnhor-button.js';
-import './animation.js';
+import '../js/burger.js';
+import '../js/acnhor-button.js';
+import '../js/animation.js';
 
 // вантажимо ліниво після завантаження DOM
 document.addEventListener('DOMContentLoaded', async () => {
-  await import('./counter-animation.js');
-  await import('./slider.js');
+  await import('../js/counter-animation.js');
+  await import('../js/slider.js');
 });
