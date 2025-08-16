@@ -166,4 +166,12 @@
   background: var(--green-50);
   width: 10px;
   height: 10px;
+  position: relative;
+}
+
+.swiper-pagination-bullet::before {
+  content: '';
+  position: absolute;
+  top: -12px; bottom: -12px;
+  left: -12px; right: -12px;
 }
